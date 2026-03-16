@@ -1,0 +1,50 @@
+/* Page style */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Center app */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.app-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* space between buttons */
+  margin-top: 20px;
+}
+/* Buttons */
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #646cff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #4a52cc;
+}
+
+button:active {
+  transform: scale(0.95);
+}
